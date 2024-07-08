@@ -16,14 +16,16 @@ main {
     max-width: 1280px;
     margin: 0 auto;
 }
-section{
+
+section {
     margin-top: 116px;
 }
+
 /* header styles */
 .banner-container {
     min-height: 580px;
     border: 2px solid red;
-    margin-top: 20px; 
+    margin-top: 20px;
     background-color: rgba(0, 0, 0, 0.5);
     background-image: url('../images/Banner-Image.png');
     background-repeat: no-repeat;
@@ -31,21 +33,219 @@ section{
     background-position: center;
     border-radius: 16px;
     background-blend-mode: overlay;
-  }
-.banner-content p{
+}
+
+.banner-content p {
     font-size: 32px;
     font-weight: 400;
     color: white;
 }
-.banner-content h1{
+
+.banner-content h1 {
     font-size: 72px;
     font-weight: 900;
     color: white;
 }
-.banner-content{
+
+.banner-content {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 580px;
     text-align: center;
+}
+
+/* discount section styles */
+.discount-content h1 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+
+.discount-content h4 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.discount-content h3 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.discount-content {
+    text-align: center;
+}
+
+.discount-container {
+    width: 780px;
+    height: 784px;
+    margin: 0 auto;
+}
+
+.discount-container img {
+    margin-top: 45px;
+}
+
+/* welcome party styles */
+.welcome-party-content h1 {
+    color: #ffffff;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+}
+
+.welcome-party-content p {
+    color: #ffffffcc;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 22px 0 44px 0;
+}
+
+.welcome-party-content h4 {
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.welcome-party-container {
+    background-image: url("../images/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 120px;
+    gap: 36px;
+    margin-bottom: 100px;
+}
+
+/* party place section styles */
+.party-place-content h1 {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.party-place-content span {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    color: #ff0000;
+}
+
+.party-place-content .join-now-btn {
+    padding: 16px 32px 16px 32px;
+    border-radius: 8px;
+    background: #ff0000;
+    border: none;
+    color: #ffffff;
+    margin-top: 45px;
+}
+
+.party-place-content {
+    text-align: center;
+}
+
+.party-place-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 470px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+}
+
+/* coming soon styles */
+.best-offer-content h3 {
+    color: #ff0000;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.best-offer-content h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 14px 0 20px 0;
+}
+
+.best-offer-content p {
+    color: #07021199;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.new-year-content h1 {
+    color: #ff0000;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.new-year-content p {
+    color: #07021199;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 14px 0 36px 0;
+}
+
+.coming-soon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    margin: 0 auto;
+}
+
+.img-content {
+    border: 15px solid #ff0000;
+    border-radius: 50%;
+    padding: 50px;
+    margin: 0 114px 0 68px;
+}
+
+/* holiday sale styles */
+.holiday-container{
+    text-align: center;
+}
+.holiday-container h4 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.holiday-container h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin: 14px 0 24px 0;
+}
+
+.holiday-container h1 span {
+    color: #FF0000;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holiday-container p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
 }
