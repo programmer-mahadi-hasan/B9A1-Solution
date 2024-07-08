@@ -24,7 +24,6 @@ section {
 /* header styles */
 .banner-container {
     min-height: 580px;
-    border: 2px solid red;
     margin-top: 20px;
     background-color: rgba(0, 0, 0, 0.5);
     background-image: url('../images/Banner-Image.png');
@@ -165,6 +164,10 @@ section {
 }
 
 /* coming soon styles */
+.best-offer-content {
+    width: 425px;
+}
+
 .best-offer-content h3 {
     color: #ff0000;
     font-family: Inter;
@@ -185,6 +188,10 @@ section {
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
+}
+
+.new-year-content {
+    width: 425px;
 }
 
 .new-year-content h1 {
@@ -215,20 +222,27 @@ section {
     border-radius: 50%;
     padding: 50px;
     margin: 0 114px 0 68px;
+    width: 426px;
+    height: 426px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* holiday sale styles */
-.holiday-container{
+.holiday-text-container {
     text-align: center;
+    margin-bottom: 60px;
 }
-.holiday-container h4 {
+
+.holiday-text-container h4 {
     color: #070211;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
 }
 
-.holiday-container h1 {
+.holiday-text-container h1 {
     color: #070211;
     font-family: Merriweather;
     font-size: 72px;
@@ -236,16 +250,42 @@ section {
     margin: 14px 0 24px 0;
 }
 
-.holiday-container h1 span {
+.holiday-text-container h1 span {
     color: #FF0000;
     font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
 }
 
-.holiday-container p {
+.holiday-text-container p {
     color: rgba(7, 2, 17, 0.6);
     font-family: Inter;
     font-size: 20px;
     font-weight: 500;
+}
+
+/* holiday discount container styles */
+.holiday-discount-container {
+    height: 642px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.holiday-discount-container .red-part {
+    background-color: #FF0000;
+    width: 1280px;
+    height: 222px;
+    position: absolute;
+    top: 65.3%;
+}
+
+.gift-box {
+    position: relative;
+    z-index: 1;
+}
+
+.discount-img {
+    position: absolute;
+    bottom: 40%;
+    left: 72%;
 }
